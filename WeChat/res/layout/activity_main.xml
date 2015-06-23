@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hong="http://schemas.android.com/apk/res/com.zhengong.wechat"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+<android.support.v4.view.ViewPager
+    android:id="@+id/id_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    />
+
+<com.zhengong.wechat.view.TabView
+    android:id="@+id/id_tab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:orientation="horizontal" 
+    android:background="#eeeeee"
+    hong:text_size="12sp"
+    hong:text_normal_color="#ff777777"
+    hong:text_select_color="#ff45c01a"
+    hong:text_padding="7dp"
+    />
+</LinearLayout>
